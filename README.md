@@ -8,7 +8,7 @@
 
 We built a modern version of the classic 2D game, Slime Volleyball.  It is a single page, client-side web application built in JavaScript and utilizing [Webpack] (https://github.com/webpack/webpack).
 
-Slime Volleyball can be played as either a single-player or two-player game. 
+Slime Volleyball can be played as either a single-player or two-player game.
 
 Single-player controls: If a player chooses to play in single-player mode, the player's slime is controlled on the left side of the screen using the WASD keys.  
 
@@ -57,3 +57,4 @@ Once the server is running, you can visit:
 [David Tinianow] (https://www.github.com/dtinianow)
 
 [Matt Campbell] (https://www.github.com/matthewecampbell)
+__________________________________________________________
