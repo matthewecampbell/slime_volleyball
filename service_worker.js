@@ -2,18 +2,18 @@ this.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open('v1').then(function(cache) {
       return cache.addAll([
-        '/',
-        '../../index.html',
-        '../stylesheets/style.css',
-        './index.js',
-        './ball.js',
-        './game-commands.js',
-        './game.js',
-        './menu.js',
-        './net.js',
-        './player.js',
-        './scoreboard.js',
-        './slime.js'
+        '/slime_volleyball/',
+        '/slime_volleyball/index.html',
+        '/slime_volleyball/lib/stylesheets/style.css',
+        '/slime_volleyball/lib/scripts/index.js',
+        '/slime_volleyball/lib/scripts/ball.js',
+        '/slime_volleyball/lib/scripts/game-commands.js',
+        '/slime_volleyball/lib/scripts/game.js',
+        '/slime_volleyball/lib/scripts/menu.js',
+        '/slime_volleyball/lib/scripts/net.js',
+        '/slime_volleyball/lib/scripts/player.js',
+        '/slime_volleyball/lib/scripts/scoreboard.js',
+        '/slime_volleyball/lib/scripts/slime.js'
       ]);
     })
   );

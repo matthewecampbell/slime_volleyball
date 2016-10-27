@@ -54,7 +54,7 @@
 	function registerServiceWorker() {
 	  console.log("hello");
 	  if ('serviceWorker' in navigator) {
-	    navigator.serviceWorker.register('/slime_volleyball/lib/scripts/service_worker.js').then(function (reg) {
+	    navigator.serviceWorker.register('/slime_volleyball/service_worker.js').then(function (reg) {
 	      // registration worked
 	      console.log('Registration succeeded. Scope is ' + reg.scope);
 	    }).catch(function (error) {
