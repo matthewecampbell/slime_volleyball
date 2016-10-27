@@ -54,7 +54,7 @@
 	function registerServiceWorker() {
 	  console.log("hello");
 	  if ('serviceWorker' in navigator) {
-	    navigator.serviceWorker.register('/lib/scripts/service_worker.js').then(function (reg) {
+	    navigator.serviceWorker.register('/slime_volleyball/lib/scripts/service_worker.js').then(function (reg) {
 	      // registration worked
 	      console.log('Registration succeeded. Scope is ' + reg.scope);
 	    }).catch(function (error) {
@@ -1371,7 +1371,7 @@
 
 
 	// module
-	exports.push([module.id, "canvas {\n    padding-left: 0;\n    padding-right: 0;\n    margin-left: auto;\n    margin-right: auto;\n    display: block;\n    background: blue no-repeat;\n    background-position: center;\n}\n", ""]);
+	exports.push([module.id, "canvas {\n    padding-left: 0;\n    padding-right: 0;\n    margin-left: auto;\n    margin-right: auto;\n    display: block;\n    background: url(\"https://i.imgur.com/gDJx6ws.jpg\") no-repeat;\n    background-position: center;\n}\n", ""]);
 
 	// exports
 
