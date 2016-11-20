@@ -6,7 +6,7 @@
 
 ![](http://g.recordit.co/p24Lw2IgF3.gif)
 
-We built a modern version of the classic 2D game, Slime Volleyball.  It is a single page, client-side web application built in JavaScript and utilizing [Webpack] (https://github.com/webpack/webpack).
+We built a modern version of the classic 2D game, Slime Volleyball.  It is a single page, client-side web application built in JavaScript and utilizing [Webpack] (https://github.com/webpack/webpack).  Once you load the page, a service worker will run in the background and cash the app so you will then have offline playability.
 
 Slime Volleyball can be played as either a single-player or two-player game.
 
